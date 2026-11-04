@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drowsy Driver Alert</title>
+  <meta name="description" content="Free in-browser drowsiness alert for drivers. Uses your phone camera and runs entirely on your device.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1 class="title">الناعوسه دوت كوم</h1>
+
+    <div class="video-wrap">
+      <video id="video" playsinline muted></video> 
+      <canvas id="overlay"></canvas>
+    </div>
+
+    <p id="status">إضغط على زر البدء ثم قم بتوجيه الكاميرا لوجهك</p>
+    <p id="ear" dir="ltr"></p>
+
+    <button id="startBtn">إبدء</button>
+    <button id="testBtn" class="secondary">اختبار الصوت</button>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
