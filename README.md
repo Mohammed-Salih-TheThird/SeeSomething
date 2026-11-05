@@ -1,7 +1,6 @@
-# Drowsy Driver Alert
+# SeeSomething (an app for when the driver see nothing 😪😪)
 
 A simple web app that watches a driver's eyes through the phone camera and plays a loud, high-pitched alarm when the eyes stay closed for too long.
-
 
 ## Run locally
 
